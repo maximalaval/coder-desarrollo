@@ -80,6 +80,15 @@ body {
   justify-content: center;
 }
 
+.btn-primary{
+  background-color: #9e774a;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:hover{
+  background-color: #201e1e;
+  border-color: #1d1717;
+}
 
 .divImgPortada {
   position: absolute;
