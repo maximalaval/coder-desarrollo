@@ -43,8 +43,8 @@
                             <a class="nav-link" href="./pages/ingreso_mayorista.html">Ingreso Mayorista</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/carrito_minorista.html"><img src="./img/carrito.png"
-                                    width="10px" alt="carrito de compras"></a>
+                            <a class="nav-link" href="./pages/carrito_minorista.html">
+                                <img class="carrito" src="./img/carrito.png" width="10px" alt="carrito de compras"></a>
                         </li>
                     </ul>
 
@@ -56,54 +56,58 @@
 
     <main class="menuProductosPromocionales">
 
-        <section>
-            <iframe class="videoPortada" type="text/html" width="1920" height="420"
-                src="https://www.youtube.com/embed/rFSPUV9FD34?&mute=1&autoplay=1&controls=0&fs=0&loop=1&modestbranding=1"
-                frameborder="0" allowfullscreen>
-            </iframe>
-        </section>
-
-        <section>
-
+        <section class="portada">
+            <div calss="contenedorPortada">
+                <iframe class="videoPortada" type="text/html" width="1920" height="420"
+                    src="https://www.youtube.com/embed/rFSPUV9FD34?&mute=1&autoplay=1&controls=0&fs=0&loop=1&modestbranding=1"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <div class="divImgPortada">
+                    <img class="imgPortada" src="./img/logo-santorini-negro.svg" alt="">
+                </div>
+            </div>
         </section>
 
         <section>
             <div>
-                <h1>SANTORINI</h1>
+                <h1 class="titulo">SANTORINI</h1>
                 <h2>Colección de invierno</h2>
             </div>
         </section>
 
         <section class="productosPromocionales">
-            <div>
+            <div class="columnaPromocionales">
                 <img class="imgPromocionales" src="img/Chaleco-paige.webp" alt="Chaleco ">
-                <a class="tituloPromocionales" href="">Chaleco Paige</a>
-                <p class="cuotas"> 3 cuotas <span> SIN INTERES </span> </p>
-                <p class="monto">$ XX.XXX</p>
-                <a class="botonComprar" href="">Comprar</a>
-
+                <div class="textoPromocionales">
+                    <a class="tituloPromocionales" href="">Chaleco Paige</a>
+                    <p class="cuotas"> 3 cuotas <span> SIN INTERES </span> </p>
+                    <p class="monto">$ XX.XXX</p>
+                </div>
             </div>
-            <div>
+            <div class="columnaPromocionales">
                 <img class="imgPromocionales" src="img/buzo-yaris.webp" alt="buzo-yaris">
-                <a href="" class="tituloPromocionales">Buzo Yaris</a>
-                <p class="cuotas"> 3 cuotas <span>SIN INTERES</span> </p>
-                <p class="monto">$ XX.XXX</p>
-                <a class="botonComprar" href="">Comprar</a>
+                <div class="textoPromocionales">
+                    <a href="" class="tituloPromocionales">Buzo Yaris</a>
+                    <p class="cuotas"> 3 cuotas <span>SIN INTERES</span> </p>
+                    <p class="monto">$ XX.XXX</p>
+                </div>
             </div>
 
-            <div>
+            <div class="columnaPromocionales">
                 <img class="imgPromocionales" src="img/jan-salma.webp" alt="jean-salma">
-                <a href="" class="tituloPromocionales">Jean Salma</a>
-                <p class="cuotas"> 3 cuotas <span> SIN INTERES </span></p>
-                <p class="monto"> $ XX.XXX </p>
-                <a class="botonComprar" href="">Comprar</a>
+                <div class="textoPromocionales">
+                    <a href="" class="tituloPromocionales">Jean Salma</a>
+                    <p class="cuotas"> 3 cuotas <span> SIN INTERES </span></p>
+                    <p class="monto"> $ XX.XXX </p>
+                </div>
             </div>
-            <div>
+            <div class="columnaPromocionales">
                 <img class="imgPromocionales" src="img/jean-lex.webp" alt="jean-lex">
-                <a href="" class="tituloPromocionales">Jean Lex</a>
-                <p class="cuotas">3 cuotas <span> SIN INTERES </span></p>
-                <p class="monto">$XX.XXX</p>
-                <a class="botonComprar" href="">Comprar</a>
+                <div class="textoPromocionales">
+                    <a href="" class="tituloPromocionales">Jean Lex</a>
+                    <p class="cuotas">3 cuotas <span> SIN INTERES </span></p>
+                    <p class="monto">$XX.XXX</p>
+                </div>
             </div>
         </section>
 
