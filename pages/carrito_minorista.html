@@ -53,24 +53,14 @@
     </header>
 
     <main class="menuProductos">
+        <section class="sectionCarrito">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
 
-        <section>
-            <div>
-                <h2>Carrito de compras</h2>
-            </div>
+                Ir al carrito de compras
+
+            </button>
         </section>
-
-        <section>
-            <div>
-
-            </div>
-        </section>
-
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-            <img src="/img/carrito.png" width="30px" alt="">
-        </button>
-
         <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">
@@ -83,89 +73,51 @@
                         <div class="col1">
                             <img class="imgProductos" src="../img/chaleco-paige.webp" alt="Chaleco ">
                         </div>
-                        <div>
-                            <div>
+                        <div class="divContenedor2">
+                            <div class="divTitulo">
                                 Titulo ropa
                             </div>
-                            <div>
+                            <div class="divContenedor3">
                                 <div>CANTIDAD</div>
                                 <div>Monto</div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-            </form>
-
-        </div>
-        </div>
-
-
-
-
-        <section>
-            <div>
-                <ul class="carritoProductos">
-                    <li>
-                        <div>
-                            <img class="imgProductos" src="../img/chaleco-paige.webp" alt="Chaleco ">
-                        </div>
-                        <div>
-                            <a class="tituloPromocionales" href="">Chaleco Paige</a>
-                            <p class="cuotas"> 3 cuotas <span> SIN INTERES </span></p>
-                        </div>
-                        <div>
-                            <h3>CANTIDAD</h3>
-                            <input type="number">
-                        </div>
-
-                    </li>
-
-                    <li>
-                        <div>
+                <div class="offcanvas-body">
+                    <div class="divContenedor">
+                        <div class="col1">
                             <img class="imgProductos" src="../img/buzo-yaris.webp" alt="Chaleco ">
                         </div>
-                        <div>
-                            <a class="tituloPromocionales" href="">Buzo Yaris</a>
-                            <p class="cuotas"> 3 cuotas <span> SIN INTERES </span></p>
+                        <div class="divContenedor2">
+                            <div class="divTitulo">
+                                Titulo ropa
+                            </div>
+                            <div class="divContenedor3">
+                                <div>CANTIDAD</div>
+                                <div>Monto</div>
+                            </div>
                         </div>
-                        <div>
-                            <h3>CANTIDAD</h3>
-                            <input type="number">
-                        </div>
-
-                    </li>
-
-                </ul>
+                    </div>
+                </div>
+            </form>
+            <div class="confirmarCompra">
+                <a href="#" class="btn btn-primary">Confirmar compra</a>
             </div>
-        </section>
-        <section>
-            <div>
-                <h3>Complete sus datos para envío</h3>
-                <form action="">
-                    <input type="text" placeholder="Nombre y Apellido">
-                    <input type="text" placeholder="Domicilio de etrega">
-                    <input type="number" placeholder="Tel:">
-                    <input type="mail" placeholder="Mail">
-                </form>
-            </div>
-            <div>
-                <input type="checkbox">
-                <p class="terminosYCondiciones">Aceptar términos y condiciones</p>
-                <input type="submit" value="CONFIRMAR COMPRA">
-            </div>
-        </section>
+        </div>
 
     </main>
 
 
-    <footer>
-        <div>
+    <footer class="footerMaster">
+        <div class="footer">
             <h4>Seguinos en redes sociales</h4>
             <a href="https://instagram.com" target="_blank">
-                <img src="../img/instagram.svg" alt="" class="logoInstagram">
+                <i class="fa-brands fa-instagram"></i>
             </a>
             <a href="http://facebook.com" target="_blank">
-                <img src="../img/facebook.svg" alt="" class="logoFacebook">
+                <i class="fa-brands fa-facebook-f"></i>
             </a>
         </div>
 

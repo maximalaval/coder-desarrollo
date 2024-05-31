@@ -142,7 +142,12 @@ body {
 
 }
 
-
+.sectionCarrito{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  
+}
 
 .verTodosLosProductos {
   display: flex;
@@ -308,6 +313,13 @@ section .cuotas {
 
 }
 
+
+.politica{
+  background-image: linear-gradient(to bottom, #ffcc00, #ff3300); 
+  padding: 20px; 
+  color: white; 
+}
+
 .form-floating {
   width: 400px;
 }
@@ -400,9 +412,30 @@ section .monto {
 
 .offcanvas-body{
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+  
 }
 
+
+.divContenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+.divContenedor2{
+  margin-left: 15px;
+}
+
+.divContenedor3{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+.divTitulo{
+  margin-bottom: 5px;
+  padding: 0 40px 10px 0;
+  font-weight: 400;
+}
 .col1{
   height: auto;
   width: 80px;
@@ -416,7 +449,55 @@ section .monto {
 
 /*-------------FOOTER----------------*/
 footer {
+  display: flex;
   background-color: #926c40;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer h4{
+  font-size: 15px;
+}
+.contacto{
+text-align: center;
+margin-right: 200px;
+}
+
+.contacto h4{
+  font-size: 20px;
+  font-weight:400;
+}
+
+.contacto p{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+@media screen and (max-width:767px) {
+  .footerMaster{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .contacto{
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }  
+
 }
 
 footer img {
@@ -425,5 +506,5 @@ footer img {
 
 footer div i {
   color: #ffff;
-  width: 80px;
 }
+
